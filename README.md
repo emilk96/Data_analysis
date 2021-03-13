@@ -12,17 +12,13 @@ To use:
 
 1. Place `.txt` files into the folder `txt_files`
 
-2. Run 
+2. Run to extract information and save to `.json` file.
 ```
 python3 data_analyser.py
 ```
 
-to extract information and save to `.json` file.
-
-3. Run
+3. Run to transform all `.txt` files to `.csv`
 ```
 python3 cgom_to_kmer_v2.py
 ``` 
-
-to transform all `.txt` files to `.csv`
 
