@@ -2,11 +2,11 @@
 
 This system can be used to find statistical information about given distance.txt files
 and also be used to transform a large number of distance.txt files to the shortened 
-.csv format 
+`.csv` format 
 
 There are two main scripts. The script `data_analyser.py` is used to find the lettering switch thresholds. These are saved in the `threshholds.json` file.
 The script `cgom_to_kmer_v2.py` is used to transform the `txt_files/*.txt` files to the shortened `.csv` files using the information in the `thresholds.json` file.
-The resulting files are saved at `csv_files/*.csv`.
+The resulting files are saved at `csv_files/consolidated_data.csv`.
 
 To use:
 
