@@ -1,4 +1,4 @@
-# Data Analyser Berk 
+# Data Analyser Berkules
 
 This system can be used to find statistical information about given distance.txt files
 and also be used to transform a large number of distance.txt files to the shortened 
