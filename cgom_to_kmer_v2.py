@@ -22,7 +22,7 @@ for j, filename in enumerate(filenames):
     # Add duration column
     globals()['df_raw%s' % j]['duration'] = globals()['df_raw%s' % j].apply(lambda x: x['end_time'] - x['start_time'], axis=1)
 
-    #Replace if not in between threshold bounds (BG never gets replaced)
+    # Replace if not in between threshold bounds (BG never gets replaced)
     # A -> K
     globals()['df_raw%s' % j].loc[(globals()['df_raw%s' % j]["duration"] >= thresholds[1][0]) & (globals()['df_raw%s' % j]["duration"] <= thresholds[1][1]) & (globals()['df_raw%s' % j]["label"] == "A" ), "label"] = "K"
     # B -> L
