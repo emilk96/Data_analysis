@@ -51,6 +51,6 @@ for j, filename in enumerate(filenames):
 df_out = pd.DataFrame(data_total, columns = ['Expert', 'UniColor'])
 
 #Convert back to csv
-df_out.to_csv("csv_files/" + "total" + ".csv", index=False)
+df_out.to_csv("csv_files/" + "consolidated_data" + ".csv", index=False)
 
 
